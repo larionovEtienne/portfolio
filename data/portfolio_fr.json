@@ -1,0 +1,38 @@
+[
+  {
+    "image": "image2.png",
+    "title": "Riding cities",
+    "text": "Voici le premier projet où des données HTML et CSS de base sont utilisées. À partir de la maquette Figma proposée, des ajustements ont été effectués et des éléments manquants ont été ajoutés.",
+    "link": "https://github.com/larionovEtienne/Projet2_Riding"
+  },
+  {
+    "image": "image1.png",
+    "title": "Booki",
+    "text": "Ce projet implique la création d'une page web d'une agence de voyages en utilisant HTML et CSS, en tenant compte du fait que l'application doit être responsive et fonctionner correctement sur différents appareils.",
+    "link": "https://github.com/larionovEtienne/Projet3_Booki"
+  },
+  {
+    "image": "image4.png",
+    "title": "Print it",
+    "text": "Pour mettre en œuvre ce projet, il était nécessaire d'intégrer un carrousel en utilisant JavaScript. Dans cette application, j'ai pris connaissance des compétences de base pour utiliser et intégrer JS.",
+    "link": "https://github.com/larionovEtienne/print_it-master-2"
+  },
+  {
+    "image": "image5.png",
+    "title": "Le site de l'architecte",
+    "text": "Ce projet est une application Web dynamique utilisant JavaScript et des requêtes API, la manipulation du DOM et la création de fenêtres modales. Dans ce projet, j'ai utilisé de nombreuses fonctionnalités de JavaScript sans utiliser de bibliothèques tierces.",
+    "link": "https://github.com/larionovEtienne/Projet7"
+  },
+  {
+    "image": "image3.png",
+    "title": "Kasa",
+    "text": "Le projet Kasa est une application web React. Cette application web comprend des requêtes API vers le backend pour afficher des données dans l'interface utilisateur, une navigation interne à l'aide de React Router, et la réutilisation de composants.",
+    "link": "https://github.com/larionovEtienne/Projet8_Casa"
+  },
+  {
+    "image": "image6.png",
+    "title": "Automatisation avec Cypress",
+    "text": "Ce projet a permis d'acquérir des compétences en développement de scénarios de test, rédaction de tests avec Cypress, implémentation des tests et rédaction d'un rapport sur les performances de l'application web.",
+    "link": "https://github.com/larionovEtienne/TesteurLogiciel_Automatisez_des_tests_pour_une_boutique_en_ligne-main"
+  }
+]

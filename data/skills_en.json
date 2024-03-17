@@ -1,0 +1,32 @@
+[
+  {
+    "image": "html-css.jpg",
+    "title": "HTML - CSS",
+    "text": "Integration of responsive and accessible interfaces, utilization of Figma mockups, CSS animation development. Minimization of loading time, reduction of file size, and enhancement of script and style performance."
+  },
+  {
+    "image": "js.jpg",
+    "title": "JavaScript",
+    "text": "DOM manipulation, creation of dynamic elements, form data management. Working with asynchronous Fetch API requests to interact with the server without page reload."
+  },
+  {
+    "image": "react.jpg",
+    "title": "React",
+    "text": "Building React applications, creating components and managing their state. Developing Single Page Applications (SPA) using React Router for page navigation. Integration of third-party libraries and components into a React project."
+  },
+  {
+    "image": "gestion-de-projet.png",
+    "title": "Project Management",
+    "text": "Analysis of client requirements, definition of a technical solution that meets functional requirements, project planning. Developing a test strategy and plan in accordance with project requirements. Collaboration with developers to define test integration points and resolve identified issues."
+  },
+  {
+    "image": "optimisation-et-debug.png",
+    "title": "Optimization and Debugging",
+    "text": "Identifying anomalies and correcting existing site issues, SEO and performance optimization, and online site publishing. Checking site compatibility with different browsers and devices to ensure consistent user experience."
+  },
+  {
+    "image": "test.png",
+    "title": "Test",
+    "text": "Exploratory, unit, and integration testing, defining a test strategy and writing a test specification, automation of E2E and API tests with Cypress."
+  }
+]

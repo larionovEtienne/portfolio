@@ -1,0 +1,221 @@
+/******* GENERAL *******/
+/* spacing on all sections */
+
+:root {
+    --primary-color: #0a53be;
+    --info-color: #063580;
+}
+
+.btn-success {
+    background-color: var(--primary-color);
+    padding: 5px 35px;
+}
+
+.btn-success:hover {
+    background-color: var(--info-color);
+    box-shadow: 2px 2px 5px var(--primary-color);
+}
+
+#about,
+#skills,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#about h2,
+#skills h2,
+#portfolio h2,
+#contact h2 {
+    margin-bottom: 3rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* display background dark color on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: var(--primary-color);
+}
+
+.nav-link {
+    color: #b6d4fe;
+}
+
+/* CSS styles for left side navbar collapse animation */
+.navbar {
+    transition: background-color 0.4s ease; /* Добавляем плавный переход */
+}
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url("images/imgbg.jpg") center/cover;
+}
+
+/* text css above hero image*/
+
+.hero_title {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #b6d4fe;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-family: Times, sans-serif;
+    opacity: 0;
+    transition: opacity 5s;
+}
+
+.hero_title.show {
+    opacity: 1;
+}
+
+/* about */
+.imageAboutPage {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 20px rgb(37, 88, 169);
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.col-lg-8 .row {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    text-align: center;
+}
+
+/* skills */
+
+.card-body {
+    height: auto;
+    min-height: 265px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.skillsText.card {
+    height: auto;
+}
+
+.skillsText img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+#skills p {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+h2.text-center,
+.container h2 {
+    color: var(--primary-color);
+    font-family: Times, sans-serif;
+    text-align: center;
+}
+
+/* portfolio */
+#portfolio p {
+    text-align: center;
+}
+
+/* contact */
+.contactColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Times, sans-serif;
+}
+
+.contactColumn i {
+    color: var(--primary-color);
+}
+
+.contactColumn a i {
+    transition: transform 0.3s ease;
+}
+
+.contactColumn a:hover i {
+    transform: scale(1.1);
+    color: var(--info-color);
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+#languageButton {
+    margin-left: auto;
+}
+
+.nav-item a:hover,
+.nav-item span:hover {
+    color: white;
+
+    transition: background-color 0.3s ease;
+}
+
+.container a {
+    color: #b6d4fe;
+}
+
+.hero_title.show {
+    width: 80%;
+}
+
+@media (max-width: 991px) {
+    /* Styles for navbar collapse */
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .navbar-nav .nav-link,
+    .nav-item a {
+        padding: 0.9rem;
+    }
+
+    .nav-item:hover {
+        background: none;
+    }
+
+    .nav-item a:hover,
+    .nav-item span:hover,
+    .navbar-toggler:hover {
+        color: white;
+    }
+
+    .btn-link span {
+        margin-left: auto;
+    }
+
+    .nav-item a {
+        display: inline-block;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero_title {
+        font-size: 30px;
+    }
+}

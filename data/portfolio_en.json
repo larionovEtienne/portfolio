@@ -1,0 +1,38 @@
+[
+  {
+    "image": "image2.png",
+    "title": "Riding cities",
+    "text": "This is the first project where basic HTML and CSS data are used. Based on the proposed Figma layout, adjustments were made and missing elements were added.",
+    "link": "https://github.com/larionovEtienne/Projet2_Riding"
+  },
+  {
+    "image": "image1.png",
+    "title": "Booki",
+    "text": "This project involves creating a travel agency web page using HTML and CSS, taking into account that the application should be responsive and function correctly on various devices.",
+    "link": "https://github.com/larionovEtienne/Projet3_Booki"
+  },
+  {
+    "image": "image4.png",
+    "title": "Print it",
+    "text": "To implement this project, it was necessary to integrate a carousel using JavaScript. In this application, I familiarized myself with basic skills of using and integrating JS.",
+    "link": "https://github.com/larionovEtienne/print_it-master-2"
+  },
+  {
+    "image": "image5.png",
+    "title": "Architect's website",
+    "text": "This project is a dynamic web application using JS and API requests, DOM manipulation, and modal window creation. In this project, I utilized numerous JS capabilities without using third-party libraries.",
+    "link": "https://github.com/larionovEtienne/Projet7"
+  },
+  {
+    "image": "image3.png",
+    "title": "Kasa",
+    "text": "The Kasa project is a React web application. This web application includes API requests to the backend to display data in the user interface, navigation using React Router, and component reuse.",
+    "link": "https://github.com/larionovEtienne/Projet8_Casa"
+  },
+  {
+    "image": "image6.png",
+    "title": "Automation with Cypress",
+    "text": "In this project, skills were acquired in developing test scenarios, writing tests using Cypress, implementing tests, and compiling a report on the web application's performance.",
+    "link": "https://github.com/larionovEtienne/TesteurLogiciel_Automatisez_des_tests_pour_une_boutique_en_ligne-main"
+  }
+]

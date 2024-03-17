@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Larionov Etienne Portfolio</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+    <!-- bootstrap CDN -->
+    <link href="/bootstrap.min.css" rel="stylesheet"/>
+    <script src="script/bootstrap.bundle.min.js"></script>
+    <!-- linking css file -->
+    <link href="style.css" rel="stylesheet"/>
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            rel="stylesheet"
+    />
+
+    <!-- Adding CDN for i18next and i18nextXHRBackend -->
+    <script src="
+https://cdn.jsdelivr.net/npm/i18next@23.10.0/i18next.min.js
+"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/i18next-xhr-backend@3.2.2/i18nextXHRBackend.min.js
+"></script>
+    <script src="
+https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@7.2.0/i18nextBrowserLanguageDetector.min.js
+"></script>
+</head>
+
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+    <div class="container">
+        <a class="navbar-brand" href="#home">Larionov Etienne</a>
+        <button
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-bs-target="#navbarSupportedContent"
+                data-bs-toggle="collapse"
+                type="button"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" data-i18n="navbar.home" href="#home"
+                    >Accueil</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-i18n="navbar.about" href="#about"
+                    >A propos</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-i18n="navbar.skills" href="#skills"
+                    >Compétences</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-i18n="navbar.portfolio" href="#portfolio"
+                    >Portfolio</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-i18n="navbar.contact" href="#contact"
+                    >Contact</a
+                    >
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-link nav-link" id="languageButton">
+                        <span>Français</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- main banner -->
+<section class="bgimage" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h1 class="hero_title" data-i18n="hero.title">
+                    Bonjour, je m'appelle Larionov Etienne et je suis testeur
+                    d'applications.
+                </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- about section-->
+<section id="about">
+    <div class="container mt-4 pt-4">
+        <h2 class="text-center" data-i18n="navbar.about">A propos</h2>
+        <div class="row mt-4">
+            <div class="col-lg-3">
+                <img alt="" class="imageAboutPage" src="images/person.png"/>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="row mt-3">
+                    <p data-i18n="about_me_paragraph1">
+                        Salut! Je m'appelle Larionov Etienne et j'ai récemment terminé
+                        la formation "Testeur Logiciel" sur la plateforme
+                        "OpenClassrooms" et je suis maintenant activement à la recherche
+                        d'opportunités pour commencer ma carrière dans le domaine du
+                        test de logiciels. Au cours de ma formation, j'ai acquis des
+                        connaissances fondamentales et des compétences pratiques dans le
+                        domaine. J'ai maîtrisé les méthodes de test, les outils
+                        d'automatisation, compris l'importance du contrôle de la qualité
+                        et de la recherche efficace de défauts. Mon objectif est de
+                        commencer ma carrière dans le domaine du test de logiciels et
+                        d'appliquer mes connaissances et compétences dans la pratique.
+                        Je recherche une opportunité de rejoindre une équipe où je
+                        pourrai apprendre, évoluer et contribuer au développement d'un
+                        produit logiciel de qualité.
+                    </p>
+                    <p data-i18n="about_me_paragraph2">
+                        Vous pouvez découvrir ci-dessous mes projets et compétences que
+                        j'ai acquises au cours de ma formation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- competence section-->
+<section id="skills">
+    <div class="container">
+        <h2 class="text-center" data-i18n="my-skills">Mes compétences</h2>
+    </div>
+</section>
+
+<!-- portfolio section-->
+<section id="portfolio">
+    <div class="container mt-3">
+        <h2 class="text-center" data-i18n="my-projects">Mes projets</h2>
+    </div>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img
+                            alt="Project Image"
+                            class="card-img-top"
+                            src="images/image7.png"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title" data-i18n="card1">
+                            Les tests fonctionnels
+                        </h5>
+                        <p class="card-text" data-i18n="card1_description">
+                            Ce projet concerne les tests fonctionnels d'une application
+                            web à l'aide de cahier de recette. Il fallait également
+                            ajouter ses propres tests exploratoires et trouver le maximum
+                            de bugs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img
+                            alt="Project Image"
+                            class="card-img-top"
+                            src="images/image8.png"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title" data-i18n="card2">
+                            Menez une campagne de tests
+                        </h5>
+                        <p class="card-text" data-i18n="card2_description">
+                            Ce projet fournit des compétences en matière de tests, de
+                            documentation des problèmes trouvés dans Jira, et de rédaction
+                            de rapports de test. Sur le plan technique, ce projet
+                            introduit l'environnement de test Docker et l'outil de travail
+                            avec l'API Postman.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img
+                            alt="Project Image"
+                            class="card-img-top"
+                            src="images/image9.png"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title" data-i18n="card3">
+                            Planifiez le développement du site
+                        </h5>
+                        <p class="card-text" data-i18n="card3_description">
+                            Ce projet m'a donné une précieuse expérience dans la
+                            planification du développement d'un site web. J'ai appris à
+                            créer des spécifications techniques, à suivre les dernières
+                            tendances et technologies, à utiliser des outils de gestion de
+                            projet tels que Jira et un tableau Kanban, ainsi qu'à créer
+                            des présentations pour présenter des solutions techniques et
+                            des plans de développement de sites web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card">
+                    <img
+                            alt="Project Image"
+                            class="card-img-top"
+                            src="images/image10.png"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title" data-i18n="card4">
+                            Concevez une stratégie de test
+                        </h5>
+                        <p class="card-text" data-i18n="card4_description">
+                            Après la réalisation de ce projet, j'ai acquis des compétences
+                            en planification et réalisation de tests. J'ai appris à
+                            analyser les spécifications fonctionnelles des applications, à
+                            élaborer des stratégies de test, à planifier les tests en
+                            fonction du cycle de développement, à créer des documents
+                            techniques détaillés pour les tests, et à utiliser des outils
+                            spécialisés pour la gestion de projets et les tests. Ce projet
+                            m'a permis d'améliorer mes compétences en matière de test et
+                            de les appliquer avec assurance dans mon travail
+                            professionnel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section-->
+<section id="contact">
+    <div class="container mt-3 contactContent">
+        <h2 class="text-center" data-i18n="contact">Contactez-moi</h2>
+        <div class="row">
+            <div class="col-lg-4 mt-4 contactColumn">
+                <h4 data-i18n="phone">Téléphone</h4>
+                <a href="tel:+33606060606">
+                    <i class="fa-solid fa-phone-square fa-4x"></i>
+                </a>
+                <p>+33617126828</p>
+            </div>
+            <div class="col-lg-4 mt-4 contactColumn">
+                <h4 data-i18n="email">Adresse email</h4>
+                <a href="mailto:larionov1980@hotmail.com">
+                    <i class="fa-solid fa-square-envelope fa-4x"></i>
+                </a>
+                <p>larionov1980@hotmail.com</p>
+            </div>
+            <div class="col-lg-4 mt-4 contactColumn">
+                <h4>LinkedIn</h4>
+                <a
+                        href="https://fr.linkedin.com/in/etienne-larionov-16ab36296"
+                        target="_blank"
+                >
+                    <i class="fa-brands fa-linkedin fa-4x"></i>
+                </a>
+                <p>Larionov Etienne</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- load javascript after loading all html content -->
+<script defer src="script/translation.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>
