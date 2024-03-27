@@ -2,7 +2,7 @@
   "name": "Larionov_Etienne_portfolio",
   "version": "1.0.0",
   "scripts": {
-    "start": "echo 'No server dependencies'"
+    "start": "http-server -p 8080"
   }
 }
 

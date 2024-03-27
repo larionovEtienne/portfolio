@@ -11,10 +11,6 @@
     padding: 5px 35px;
 }
 
-.btn-success:hover {
-    background-color: var(--info-color);
-    box-shadow: 2px 2px 5px var(--primary-color);
-}
 
 #about,
 #skills,
@@ -46,7 +42,7 @@
 
 /* CSS styles for left side navbar collapse animation */
 .navbar {
-    transition: background-color 0.4s ease; /* Добавляем плавный переход */
+    transition: background-color 0.4s ease;
 }
 
 /* hero background image */

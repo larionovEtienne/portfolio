@@ -64,11 +64,29 @@ function createFromJSON(data, containerSelector, includeButton, buttonLabel) {
           <h4 class="card-title">${item.title}</h4>
           <p class="card-text">${item.text}</p>
           <div class="text-center"> 
-          ${includeButton ? linkHtml : ""}
-        </div>
+            ${includeButton ? linkHtml : ""}
+          </div>
         </div>
       </div>
     `;
+
+    // Add event listener to the button if includeButton is true
+    if (includeButton) {
+      const button = card.querySelector(".btn-success");
+      button.addEventListener("click", function () {
+        button.classList.toggle("active");
+      });
+
+      button.addEventListener("mouseenter", function () {
+        button.style.backgroundColor = "var(--info-color)";
+        button.style.boxShadow = "2px 2px 5px var(--primary-color)";
+      });
+
+      button.addEventListener("mouseleave", function () {
+        button.style.backgroundColor = "var(--primary-color)";
+        button.style.boxShadow = "none";
+      });
+    }
 
     // Append the card to the current row
     row.appendChild(card);

@@ -14,7 +14,7 @@ function loadSkills(language) {
     })
     .then((data) => {
       const container = document.querySelector("#skills .container");
-      container.innerHTML = ""; // Очищаем содержимое контейнера перед добавлением новой секции
+      container.innerHTML = "";
 
       // Add "My skills"
       const heading = document.createElement("h2");
