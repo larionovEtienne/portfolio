@@ -66,7 +66,13 @@ i18next.use(i18nextXHRBackend).init(
           "navbar.portfolio": "Portfolio",
           "navbar.contact": "Contact",
           "hero.title":
-            "Hello, my name is Larionov Etienne and I am an applications tester.",
+            "Hello, my name is Larionov Etienne.\n" +
+              "\n" +
+              "I am a QA Automation Engineer specialized in web application testing.\n" +
+              "\n" +
+              "I help improve product quality by building automated tests with Cypress, API testing, and reliable testing strategies.\n" +
+              "\n" +
+              "My goal is to ensure stable, performant, and regression-free applications.\n",
           "my-skills": "My skills",
           "my-projects": "My projects",
           contact: "Contact me",
@@ -103,7 +109,13 @@ i18next.use(i18nextXHRBackend).init(
           "navbar.portfolio": "Portfolio",
           "navbar.contact": "Contact",
           "hero.title":
-            "Bonjour, je m'appelle Larionov Etienne et je suis testeur d'applications.",
+            "Bonjour, je m’appelle Larionov Etienne.\n" +
+              "\n" +
+              "Je suis Ingénieur QA Automation spécialisé dans le test des applications web.\n" +
+              "\n" +
+              "J’aide à améliorer la qualité des produits en mettant en place des tests automatisés avec Cypress, des tests API et des stratégies de test fiables.\n" +
+              "\n" +
+              "Mon objectif est de garantir des applications stables, performantes et sans régressions.\n",
           "my-skills": "Mes compétences",
           "my-projects": "Mes projets",
           contact: "Contactez-moi",
